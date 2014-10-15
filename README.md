@@ -1,3 +1,21 @@
+# BIOMD0000000302: Wang1996_Single_Neuron
+
+## Installation
+
+Download this repository, and install with distutils
+
+`python setup.py install`
+
+Or, install using pip
+
+`pip install git+https://github.com/biomodels/BIOMD0000000302.git`
+
+To install a specific version (in this example, from the 2014-09-16 BioModels release)
+
+`pip install git+https://github.com/biomodels/BIOMD0000000302.git@20140916`
+
+
+# Model Notes
 
 
 This is a model of one presynaptic and one postsynaptic cell, as described in
@@ -42,4 +60,5 @@ the postsynaptic cell on directly applied current can be investigated in
 isolation by setting I_app_pre to 0 and altering I_app_post.
 
 Originally created by libAntimony v1.4 (using libSBML 3.4.1)
+
 
